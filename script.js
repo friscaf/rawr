@@ -39,7 +39,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
-              Swal.fire(`${sender} kangen juga gak ya sama mas ${nama}`).then(function () {
+              Swal.fire(`${sender} kangen juga gak ya sama mas ${nama} wkwkwk`).then(function () {
                 Swal.fire({
                   title: 'Seberapa kangen emangnya?',
                   icon: 'question',
