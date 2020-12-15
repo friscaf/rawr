@@ -53,7 +53,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                   inputValue: 50
                 }).then((e) => {
                   val = e.value
-                  Swal.fire(`Makasih banget ya mas buat...buat apa ya wes receh pisan wwk ${sender} ${val}%`).then(function () {
+                  Swal.fire(`Makasih banget ya mas buat...buat apa ya wes receh pisan wkwk'.then(function () {
                     Swal.fire({
                       title: `Sekarang ${nama} bangga ga sama ${sender}?`,
                       showDenyButton: true,
@@ -63,7 +63,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                     }).then((result) => {
                       /* Read more about isConfirmed, isDenied below */
                       if (result.isConfirmed) {
-                        Swal.fire(`Huhuhuhuhuhu iya ${sender} selamat ulang tahun ya mas ${nama} , makasihhh yaa :)`).then(function () {
+                        Swal.fire(`Huhuhuhuhuhu iya ${sender} ojok ilfil ya mas ${nama} semoga betah mbe recehanku hehe , makasihhh yaa :)`).then(function () {
                           Swal.fire('Kali ini terakhir dehh :)').then(function () {
                             Swal.fire('Coba tolong klik ikon hati di paling bawah dong')
                           })
