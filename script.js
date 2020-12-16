@@ -34,7 +34,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
             title: `${nama} kangen ga sama ${sender}?`,
             showDenyButton: true,
             showCancelButton: false,
-            confirmButtonText: `kangen recehnya dong`,
+            confirmButtonText: `kangen awm dengan segalah kerecehanya dong`,
             denyButtonText: `nggak sama sekali`,
           }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
@@ -53,7 +53,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                   inputValue: 50
                 }).then((e) => {
                   val = e.value
-                  Swal.fire(`Makasih banget ya mas buat...buat apa ya wes receh pisan kee ${sender} WKWK`).then(function () {
+                  Swal.fire(`Makasih banget ya mas buat...buat apa ya baik ke ${sender} WKWK`).then(function () {
                     Swal.fire({
                       title: `Sekarang ${nama} bangga ga sama ${sender}?`,
                       showDenyButton: true,
