@@ -12,13 +12,13 @@ if (url.searchParams.get('by') != null) {
 
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire("Halo mas rakhaa", "Aku punya pertanyaan niiii", "question").then(function () {
-    Swal.fire("Jawab jujur yaa mas wkwk").then(function () {
-      Swal.fire("Awasss yaaa kalooo boong samean wkwk", "", "error").then(function () {
+    Swal.fire("jawab jujur yaa mas wkwk").then(function () {
+      Swal.fire("awasss yaaa kalooo boong samean wkwk", "", "error").then(function () {
 
         const {
           value: name
         } = Swal.fire({
-          title: 'Isii namamuu yaaa',
+          title: 'Isii namae samean yaaa',
           input: 'text',
           inputLabel: '',
           showCancelButton: true,
@@ -35,7 +35,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
             showDenyButton: true,
             showCancelButton: false,
             confirmButtonText: `kangen recehnya dong`,
-            denyButtonText: `Nggak sama sekali`,
+            denyButtonText: `nggak sama sekali`,
           }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
@@ -63,7 +63,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                     }).then((result) => {
                       /* Read more about isConfirmed, isDenied below */
                       if (result.isConfirmed) {
-                        Swal.fire(`Huhuhuhuhuhu iya.... ${sender} mau bilang ke mas ${nama} , makasihhh yaa ojok bosen lak tak recehi percayalah ben seru ae kek gitu wkwk :)`).then(function () {
+                        Swal.fire(`Huhuhuhuhuhu iya.... ${sender} mau bilang ke mas ${nama} , makasihhh yaa ojok bosen lak tak recehi.......ojok ilfill juga :)`).then(function () {
                           Swal.fire('Kali ini terakhir dehh :)').then(function () {
                             Swal.fire('Coba tolong klik ikon hati di paling bawah dong')
                           })
